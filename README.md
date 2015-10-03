@@ -2,7 +2,7 @@
 Center for Body Computing Hackathon
 
 ##Problem
-There has never been a more important time to understand and empathize with our elders.
+Care providers and caretakers need empathy to be effective, and it's difficult to convey a feeling.
 
 ##Solution
 Simulate poor sight, hearing, and mobility through vr and physical experience using gerontology backed research. 
