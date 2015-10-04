@@ -19,6 +19,7 @@ public class RetinaChange : MonoBehaviour {
 		currentImage = RetinaImages[index];
 		currentImage.SetActive (true);
 		Debug.Log(RetinaImages.Count);
+		Debug.Log("Current Level " + Application.loadedLevel);
 	}
 	
 	void Update () {
@@ -37,10 +38,11 @@ public class RetinaChange : MonoBehaviour {
 			currentImage = RetinaImages[currentInt];
 			currentImage.SetActive(true);
 		}else if (currentInt == RetinaImages.Count){
-			currentInt = index;
-			currentImage = RetinaImages[currentInt];
-//			Debug.Log ("Current Retina Image: " + currentInt);
-			currentImage.SetActive(true);
+			if(Application.loadedLevel == 0) {
+				Application.LoadLevel(1);
+			} else {
+				Application.LoadLevel(0);
+			}
 		}
 	}
 }
