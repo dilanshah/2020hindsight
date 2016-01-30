@@ -1,13 +1,6 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/HackScripts/RetinaChange.cs">
-    <Files>
-      <File FileName="Assets/Cardboard/DemoScene/Teleport.cs" Line="31" Column="27" />
-      <File FileName="Assets/HackScripts/RetinaChange.cs" Line="32" Column="16" />
-      <File FileName="../../../../JordanSeiler/Archive/UNITY FOLDERS/Holzer_iOS_1.1_u4.6.4_v4.2.3_mmt_2.1.2/Assets/Scripts/C#/RayCast.cs" Line="9" Column="21" />
-      <File FileName="../../../../Native/Assets/_scripts/ImageManager.cs" Line="39" Column="18" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
